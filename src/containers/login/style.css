@@ -1,0 +1,29 @@
+.login-container {
+    margin: calc(50vh - 230px) auto;
+    width: 400px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    background: rgb(192, 192, 192);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+input{
+    margin: 10px;
+}
+
+button {
+    margin: 10px auto;
+}
+
+button:hover {
+    background: #e1ffb3;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+}
