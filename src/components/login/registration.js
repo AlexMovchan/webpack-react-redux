@@ -8,7 +8,7 @@ export const Registration = (props) => {
             <input type="text" id="pass"  className='form-control'/>
             <div className='btn-container'>
                 <button onClick={props.registerUser} className='btn btn-default'>Register</button>
-                <button onClick={props.switchRegisterState} className='btn btn-default'>Back to login</button>
+                <button onClick={props.switchRegistration} className='btn btn-default'>Back to login</button>
             </div>
         </div>
     )
