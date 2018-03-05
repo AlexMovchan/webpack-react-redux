@@ -63,11 +63,14 @@ export default class Login extends Component{
 
     render(){
         return (
-            <div>
-                { this.props.isRegistration ? 
+            <div className='login-or-register'>
+                { 
+                    this.props.isRegistration 
+                    ? 
                     <Registration switchRegistration={this.props.pageActions.switchRegistration} registerUser={this.registerUser}/> 
                     : 
-                    <Logination switchRegistration={this.props.pageActions.switchRegistration} checkIsLogin={this.checkIsLogin}/>}
+                    <Logination switchRegistration={this.props.pageActions.switchRegistration} checkIsLogin={this.checkIsLogin}/>
+                }
             </div>
         )
     }
